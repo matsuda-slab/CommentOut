@@ -7,8 +7,7 @@ augroup commentOut
   autocmd BufRead,BufNewFile *.py,*.r call s:commap_py()
   autocmd BufRead,BufNewFile *.html,*.xml call s:commap_html()
   autocmd BufRead,BufNewFile *.sh call s:commap_sh()
-  autocmd BufRead,BufNewFile *.v,*.sv call s:commap_c()
-  autocmd BufRead,BufNewFile *.go,*.sv call s:commap_c()
+  autocmd BufRead,BufNewFile *.v,*.sv,*.go call s:commap_c()
   autocmd BufRead,BufNewFile *.pl call s:commap_perl()
   autocmd BufRead,BufNewFile *.rb call s:commap_ruby()
 augroup END
