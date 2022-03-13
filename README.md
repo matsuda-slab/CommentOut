@@ -1,5 +1,3 @@
-### In the middle of creating...
-
 ## Overview
 A VIM plugin to shortcut commenting multiple lines (block comment)
 
